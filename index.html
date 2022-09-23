@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section>
+        <video id="slider" autoplay loop controls class="controls">
+            <source src="oficina.mp4" type="video/mp4">
+        </video>
+        <ul class="navigation">
+            <li onclick="videoUrl('vfx/vid/vfx-one-vid.mp4')">  <img src="vfx/img/vfx-one.png" alt="">  </li>
+            <li onclick="videoUrl('vfx/vid/vfx-two-vid.mp4')">  <img src="vfx/img/vfx-two.png" alt="">  </li>
+            <li onclick="videoUrl('vfx/vid/vfx-three-vid.mp4')">  <img src="vfx/img/vfx-three.png" alt="">  </li>
+        </ul>
+    </section>
+    <script src="animation.js" type="text/javascript"></script>
+</body>
+
+</html>
+
